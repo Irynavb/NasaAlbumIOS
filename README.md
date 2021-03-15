@@ -11,6 +11,7 @@ This mobile iOS application:
 - fetches remote data from the NASA Image Search API,
 - parses the response,
 - displays the thumbnails in a CollectionView with a grid layout
+- displays detailed view of a thumbnail on another screen
 
 ## Technologies Used
 
