@@ -19,7 +19,8 @@ This mobile iOS application:
 - XCode
 - UIKit
 - Git
-- Command Line 
+- Command Line
+- Sketch (for the icon design) 
 
 ## Screens
 
