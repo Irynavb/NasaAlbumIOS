@@ -2,7 +2,7 @@
 
 <img src="NasaAlbumIOS/Assets.xcassets/MainIconImage.imageset/MainIconImage.png" alt="Icon of the project application" width="240">
 
-An iOS Swift 5 application using `NASA` [API](https://images.nasa.gov/docs/images.nasa.gov_api_docs.pdf) (alternatively can be found [here](https://api.nasa.gov) to present images in a collection view. 
+An iOS Swift 5 application using `NASA` [API](https://images.nasa.gov/docs/images.nasa.gov_api_docs.pdf) (alternatively can be found [here](https://api.nasa.gov)) to present images in a collection view. 
 
 ## About this Application
 
@@ -10,7 +10,7 @@ This mobile iOS application:
 
 - fetches remote data from the NASA Image Search API,
 - parses the response,
-- displays the thumbnails in a CollectionView with a grid layout
+- displays the thumbnails in a CollectionView with a grid layout,
 - displays detailed view of a thumbnail on another screen
 
 ## Technologies Used
