@@ -13,12 +13,6 @@ class ImagesCollectionViewController: DataLoadingViewController {
     private lazy var layout = UICollectionViewFlowLayout()
     
     // initialize to get the data from api to  present in UI
-    var nasaCollection: NasaCollection? {
-        didSet {
-            collectionView.reloadData()
-        }
-    }
-    
     var images: [Item] = []
     var page = 1
 

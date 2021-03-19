@@ -37,13 +37,11 @@ class ApiClient {
             }
             
             do {
-                let jsonResult = try JSONSerialization.jsonObject(with: data, options: .mutableLeaves)
-                if let jsonResult = jsonResult as? [String:Any] {}
                 let decoder = JSONDecoder()
                 decoder.keyDecodingStrategy = .convertFromSnakeCase
                 let imagesCollection = try decoder.decode(NasaCollection.self, from: data)
                 completion(.success(imagesCollection))
-            } catch let error {
+            } catch _ {
                 completion(.failure(.parsingError))
             }
         }
