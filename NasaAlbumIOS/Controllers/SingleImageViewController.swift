@@ -87,10 +87,10 @@ final class SingleImageViewController: UIViewController {
         navigationItem.rightBarButtonItem = doneButton
         
         // configure data with the model
-        imageTitleLabel.text = item.data[0].title ?? "Unknown Image Title"
-        locationLabel.text = "Location: \(item.data[0].location ?? "Unknown")"
-        photographerLabel.text = "Photographer: \(item.data[0].photographer ?? "Unknown")"
-        descriptionLabel.text = item.data[0].datumDescription ?? ""
+        imageTitleLabel.text = getImageTitle()
+        locationLabel.text = getImageLocation()
+        photographerLabel.text = getImagePhotographer()
+        descriptionLabel.text = getImagePhotographer()
 
         if item.links.count != 0 {
             let link = item.links[0]
@@ -106,7 +106,7 @@ final class SingleImageViewController: UIViewController {
         }
     }
     
-    func configureScrollView() {
+    private func configureScrollView() {
         view.addSubviews(scrollView)
         scrollView.addSubview(contentView)
         // convenient method (view controller's extencion)
@@ -121,5 +121,24 @@ final class SingleImageViewController: UIViewController {
     
     @objc func dismissViewController() {
         dismiss(animated: true)
+    }
+}
+
+extension  SingleImageViewController {
+    
+    private func getImageTitle() -> String {
+        item.data[0].title ?? "Unknown Image Title"
+    }
+
+    private func getImageLocation() -> String {
+        "Location: \(item.data[0].location ?? "Unknown")"
+    }
+
+    private func getImagePhotographer() -> String {
+        "Photographer: \(item.data[0].photographer ?? "Unknown")"
+    }
+
+    private func getImageDescription() -> String {
+        item.data[0].datumDescription ?? ""
     }
 }
