@@ -19,6 +19,7 @@
 		5E66AC8825FF601100F6F097 /* ImagePropertyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E66AC8725FF601100F6F097 /* ImagePropertyLabel.swift */; };
 		5E66AC8B25FF603B00F6F097 /* ImageTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E66AC8A25FF603B00F6F097 /* ImageTitleLabel.swift */; };
 		5E66AC8E25FF605F00F6F097 /* UIView+EXT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E66AC8D25FF605F00F6F097 /* UIView+EXT.swift */; };
+		B46FB5032609877500B846DE /* ImageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46FB5022609877500B846DE /* ImageData.swift */; };
 		B4977E6025FF5CEF0070549B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4977E5F25FF5CEF0070549B /* AppDelegate.swift */; };
 		B4977E6225FF5CEF0070549B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4977E6125FF5CEF0070549B /* SceneDelegate.swift */; };
 		B4977E6925FF5CF20070549B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4977E6825FF5CF20070549B /* Assets.xcassets */; };
@@ -38,6 +39,7 @@
 		5E66AC8725FF601100F6F097 /* ImagePropertyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePropertyLabel.swift; sourceTree = "<group>"; };
 		5E66AC8A25FF603B00F6F097 /* ImageTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTitleLabel.swift; sourceTree = "<group>"; };
 		5E66AC8D25FF605F00F6F097 /* UIView+EXT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+EXT.swift"; sourceTree = "<group>"; };
+		B46FB5022609877500B846DE /* ImageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageData.swift; sourceTree = "<group>"; };
 		B4977E5C25FF5CEF0070549B /* NasaAlbumIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NasaAlbumIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4977E5F25FF5CEF0070549B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B4977E6125FF5CEF0070549B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 				5E66AC8725FF601100F6F097 /* ImagePropertyLabel.swift */,
 				5E66AC8A25FF603B00F6F097 /* ImageTitleLabel.swift */,
 				5E66AC8D25FF605F00F6F097 /* UIView+EXT.swift */,
+				B46FB5022609877500B846DE /* ImageData.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -230,6 +233,7 @@
 				5E66AC7A25FF5F6400F6F097 /* CustomError.swift in Sources */,
 				B4977E6025FF5CEF0070549B /* AppDelegate.swift in Sources */,
 				5E66AC6A25FF5E9100F6F097 /* ImagesCollectionViewController.swift in Sources */,
+				B46FB5032609877500B846DE /* ImageData.swift in Sources */,
 				5E66AC8825FF601100F6F097 /* ImagePropertyLabel.swift in Sources */,
 				B4977E6225FF5CEF0070549B /* SceneDelegate.swift in Sources */,
 				5E66AC8525FF5FEF00F6F097 /* AvatarImageView.swift in Sources */,
