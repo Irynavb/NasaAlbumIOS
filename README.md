@@ -4,6 +4,8 @@
 
 An iOS Swift 5 application using `NASA` [API](https://images.nasa.gov/docs/images.nasa.gov_api_docs.pdf) (alternatively can be found [here](https://api.nasa.gov)) to present images in a collection view. 
 
+(The icon design made in Sketch)
+
 ## About this Application
 
 This mobile iOS application:
@@ -20,7 +22,7 @@ This mobile iOS application:
 - UIKit
 - Git
 - Command Line
-- Sketch (for the icon design) 
+- Sketch 
 
 ## Screens
 
